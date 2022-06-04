@@ -8,3 +8,7 @@ function addqte(){
     console.log(test)
 
 }
+
+function test(){
+
+}
