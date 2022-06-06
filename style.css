@@ -1,45 +1,7 @@
-h1 {
-  font-size: 33.25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 
-  text-align: center;
-  margin-bottom: 30px;
+table{
+  width: 100%;
 }
-h2 {
-  font-size: 33.25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.headers {
-  display: grid;
-
-  grid-template:
-    "a a a a" 145px
-    "a a a a" 145px
-    "a a a a" 145px
-    "a a a a" 145px;
-}
-
-.row {
-  display: flex;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: underline;
-}
-
-h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-weight: lighter;
-}
-
 .btn-rm {
   background-color: #008cba;
   border: none;
@@ -58,7 +20,6 @@ input {
   height: 40px;
   width: 40px;
 }
-
 .btn-pl {
   box-sizing: border-box;
   height: 21px;
@@ -76,17 +37,36 @@ input {
   color: white;
   border: none;
 }
-.cartfooter {
-  box-sizing: border-box;
-  padding-right: 100px;
+h1 {
+  font-size: 33.25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 33.25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+.row {
   display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
 }
-.total {
-  margin-left: 15px;
-  font-weight: bolder;
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
 }
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
 .cartebody {
   text-align: center;
 }
@@ -96,4 +76,10 @@ input {
 .test2{
   display: flex;
   align-items: stretch;
+}
+.cartfooter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
