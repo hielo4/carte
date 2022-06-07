@@ -12,7 +12,7 @@
 
 <body>
   <h1>your cart</h1>
-  <table>
+  <table id="myTable">
     <tr>
       <th>
         <h2>Product</h2>
@@ -37,25 +37,25 @@
           <div>
             <h3>Metropolis Deskpads</h3>
             <div class="test2">
-              <button class="btn-rm">remove</button>
-              <i class="fa fa-heart like" style="font-size:24px"></i>
+              <button class="btn-rm row1">remove</button>
+              <i class="fa fa-heart like" style="font-size:24px;color:black;"></i>
             </div>
           </div>
         </div>
       </th>
       <th>
-        <h4>20$</h4>
+        <h4 id="p1">20$</h4>
       </th>
       <th>
         <div class="inp">
         
-          <button class="btn-mn">-</button>
-           <h4>1</h4>
-          <button class="btn-pl">+</button> 
+          <button class="btn-mn 1">-</button>
+           <h4 id="h4-1">1</h4>
+          <button class="btn-pl 1">+</button> 
         </div>
       </th>
       <th>
-        <h4>20$</h4>
+        <h4 id="t1">20$</h4>
       </th>
     </tr>
 
@@ -68,27 +68,27 @@
           <div>
             <h3>GMK Space Cadet ||</h3>
             <div class="test2">
-              <button class="btn-rm">remove</button>
-              <i class="fa fa-heart like" style="font-size:24px"></i>
+              <button class="btn-rm row2">remove</button>
+              <i class="fa fa-heart like" style="font-size:24px;"></i>
             </div>
           </div>
         </div>
       </th>
 
       <th>
-        <h4>185$</h4>
+        <h4 id="p2">185$</h4>
       </th>
       <th>
         <div class="inp">
-          <button class="btn-mn">-</button>
-          <h4>1</h4>
-          <button class="btn-pl">+</button>
+          <button class="btn-mn 2">-</button>
+          <h4 id="h4-2">1</h4>
+          <button class="btn-pl 2">+</button>
           
           
         </div>
       </th>
       <th>
-        <h4>185$</h4>
+        <h4 id="t2">185$</h4>
       </th>
     </tr>
 
@@ -105,25 +105,25 @@
           <div>
             <h3>NK65-Aluminum Edition</h3>
             <div class="test2">
-              <button class="btn-rm">remove</button>
-              <i class="fa fa-heart like" style="font-size:24px"></i>
+              <button class="btn-rm row3">remove</button>
+              <i class="fa fa-heart like" style="font-size:24px;color:black;"></i>
             </div>
           </div>
         </div>
       </th>
       <th>
-        <h4>165$</h4>
+        <h4 id="p3">165$</h4>
       </th>
       <th>
         <div class="inp">
           
-         <button class="btn-mn">-</button> 
-          <h4>1</h4>
-          <button class="btn-pl">+</button>
+         <button class="btn-mn 3">-</button> 
+          <h4 id="h4-3">1</h4>
+          <button class="btn-pl 3">+</button>
         </div>
       </th>
       <th>
-        <h4>165$</h4>
+        <h4 id="t3">165$</h4>
       </th>
     </tr>
 
@@ -136,34 +136,35 @@
           <div>
             <h3>Gateron Ink Switches</h3>
             <div class="test2">
-              <button class="btn-rm">remove</button>
-              <i class="fa fa-heart like" style="font-size:24px"></i>
+              <button class="btn-rm row4">remove</button>
+              <i class="fa fa-heart like" style="font-size:24px;color:black;"></i>
             </div>
           </div>
         </div>
       </th>
       <th>
-        <h4>30.60$</h4>
+        <h4 id="p4">30.60$</h4>
       </th>
       <th>
         <div class="inp">
          
-          <button class="btn-mn">-</button>
-          <h4 id="test">3</h4>
-          <button class="btn-pl">+</button> 
+          <button class="btn-mn 4">-</button>
+          <h4 id="h4-4">3</h4>
+          <button class="btn-pl 4">+</button> 
         </div>
       </th>
       <th>
-        <h4>91.80$</h4>
+        <h4 id="t4">91.80$</h4>
       </th>
     </tr>
   </table>
   <div class="cartfooter">
     <h2>subtotal :</h2>
-    <h4 class="total">646.80$</h4>
+    <h4 id="sub" class="total">646.80</h4>
   </div>
   </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
